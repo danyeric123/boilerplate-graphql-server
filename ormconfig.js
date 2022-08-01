@@ -11,8 +11,8 @@ module.exports = [
     cli: {
       entitiesDir: "src/entity",
       migrationsDir: "src/migration",
-      subscribersDir: "src/subscriber"
-    }
+      subscribersDir: "src/subscriber",
+    },
   },
   {
     name: "production",
@@ -26,7 +26,7 @@ module.exports = [
     cli: {
       entitiesDir: "dist/entity",
       migrationsDir: "dist/migration",
-      subscribersDir: "dist/subscriber"
-    }
-  }
+      subscribersDir: "dist/subscriber",
+    },
+  },
 ];

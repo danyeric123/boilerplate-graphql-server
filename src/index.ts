@@ -17,9 +17,9 @@ import { MovieResolver } from "./resolvers/MovieResolver";
   const apolloServer = new ApolloServer({
     schema: await buildSchema({
       resolvers: [HelloWorldResolver, MovieResolver],
-      validate: true
+      validate: true,
     }),
-    context: ({ req, res }) => ({ req, res })
+    context: ({ req, res }) => ({ req, res }),
   });
 
   apolloServer.applyMiddleware({ app, cors: false });

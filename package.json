@@ -15,7 +15,7 @@
     "pg": "^8.8.0",
     "prettier": "^2.7.1",
     "reflect-metadata": "^0.1.10",
-    "sqlite3": "^4.1.0",
+    "sqlite3": "^5.1.2",
     "type-graphql": "^0.17.5",
     "typeorm": "0.3.10"
   },
